@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    &lt;!&ndash; Shadow layer with blur effect &ndash;&gt;-->
+<!--    <item>-->
+<!--        <shape>-->
+<!--            <solid android:color="#4D000000" />-->
+<!--            <corners android:radius="11dp" />-->
+<!--        </shape>-->
+<!--    </item>-->
+
+    <!-- Offset the main shape to create the shadow effect -->
+    <item android:right="1.45dp" android:bottom="2.91dp" >
+        <shape>
+            <solid android:color="#DAD7D7" />
+            <corners android:radius="11dp" />
+            <stroke android:width="0.5dp" android:color="#000000" />
+        </shape>
+    </item>
+
+</layer-list>
