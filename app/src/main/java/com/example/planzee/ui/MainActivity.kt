@@ -145,8 +145,8 @@ class MainActivity : AppCompatActivity() {
                         val businessPlanResponse = response1.body()
                         if (businessPlanResponse != null) {
                             Log.d("MainActivity", "Response body: $businessPlanResponse")
-                            val businessPlan = businessPlanResponse.business_plan
-                            val monetizationStrategy = businessPlanResponse.monetization_strategy
+                            val businessPlan = businessPlanResponse.result.business_plan
+                            val monetizationStrategy = businessPlanResponse.result.monetization_strategy
 
                             Log.d("MainActivity", "Business Plan: $businessPlan")
                             Log.d("MainActivity", "Monetization Strategy: $monetizationStrategy")

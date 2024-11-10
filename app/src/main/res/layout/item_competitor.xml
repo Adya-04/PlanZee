@@ -3,7 +3,10 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="#DAF6F6"
+    android:layout_marginTop="10dp"
+    android:layout_marginHorizontal="12dp">
 
     <TextView
         android:id="@+id/tvCompetitorName"
@@ -11,6 +14,7 @@
         android:layout_height="wrap_content"
         android:text="Competitor Name"
         android:textStyle="bold"
+        android:textColor="@color/black"
         android:textSize="18sp" />
 
     <TextView
@@ -20,10 +24,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="Strengths"
+        android:textColor="@color/black"
         android:textSize="16sp" />
 
     <TextView
         android:id="@+id/tvStrengths"
+        android:textColor="@color/black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Strengths"
@@ -32,6 +38,7 @@
     <TextView
         android:id="@+id/weak"
         android:layout_width="wrap_content"
+        android:textColor="@color/black"
         android:layout_marginTop="12dp"
         android:textStyle="bold"
         android:layout_height="wrap_content"
@@ -41,6 +48,7 @@
 
     <TextView
         android:id="@+id/tvWeaknesses"
+        android:textColor="@color/black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Weaknesses"
@@ -48,6 +56,7 @@
 
     <TextView
         android:id="@+id/market"
+        android:textColor="@color/black"
         android:layout_width="wrap_content"
         android:layout_marginTop="12dp"
         android:textStyle="bold"
@@ -57,6 +66,7 @@
 
     <TextView
         android:id="@+id/tvMarketShare"
+        android:textColor="@color/black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Market Share"
@@ -68,6 +78,7 @@
         android:layout_marginTop="12dp"
         android:layout_height="wrap_content"
         android:text="Uniqueness"
+        android:textColor="@color/black"
         android:textStyle="bold"
         android:textSize="16sp" />
 
@@ -76,6 +87,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Uniqueness"
+        android:textColor="@color/black"
         android:textSize="16sp" />
 
 </LinearLayout>
