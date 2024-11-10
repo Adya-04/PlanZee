@@ -22,8 +22,11 @@ class CompetitorActivity : AppCompatActivity() {
         recyclerView = findViewById(R.id.recyclerView)
         recyclerView.layoutManager = LinearLayoutManager(this)
 
+//        // Retrieve the competitor list from the intent
+//        competitorList = intent.getParcelableArrayListExtra("competitorList") ?: emptyList()
+
         // Retrieve the competitor list from the intent
-        competitorList = intent.getParcelableArrayListExtra("competitorList") ?: emptyList()
+        val competitorList: List<Competitor> = intent.getParcelableArrayListExtra("competitorList") ?: emptyList()
 
         competitorAdapter = CompetitorAdapter(competitorList)
         recyclerView.adapter = competitorAdapter

@@ -2,6 +2,7 @@ package com.example.planzee.network
 
 import com.example.planzee.dataClass.BusinessPlanResponse
 import com.example.planzee.dataClass.CompetitorResponseBody
+import com.example.planzee.dataClass.MVPResponse
 import com.example.planzee.dataClass.RequestBody
 import retrofit2.Response
 import retrofit2.http.Body
@@ -14,5 +15,8 @@ interface APIService {
 
     @POST("business-plan")
     suspend fun getBusinessPlan(@Body requestBody: RequestBody): Response<BusinessPlanResponse>
+
+    @POST("mvp")
+    suspend fun getMVP(@Body requestBody: RequestBody): Response<MVPResponse>
 
 }

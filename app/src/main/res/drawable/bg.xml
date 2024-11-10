@@ -12,9 +12,8 @@
     <!-- Offset the main shape to create the shadow effect -->
     <item android:right="1.45dp" android:bottom="2.91dp" >
         <shape>
-            <solid android:color="#DAD7D7" />
-            <corners android:radius="11dp" />
-            <stroke android:width="0.5dp" android:color="#000000" />
+            <solid android:color="@color/white" />
+            <stroke android:width="0.5dp" android:color="#6A6A6A" />
         </shape>
     </item>
 
